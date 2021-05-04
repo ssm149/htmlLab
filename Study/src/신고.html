@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+     <title> 가상 클래스 </title>
+     <style>
+		 body {
+			background-color:#fff; 
+		 }
+		 form fieldset{
+			margin-bottom:25px; 
+		 }	 
+		 form legend{
+			font-size:15px;
+			font-weight:600; 
+		 }
+		 input:disabled {		 
+			 background:#ddd;
+			 border:1px #ccc solid;
+		 }
+		 input:checked + span {
+			 color:blue;
+		 }
+	 </style>
+  </head>
+  <body>
+	<form>
+		<fieldset>
+			<legend>사용자 정보</legend>
+			<label>이름 <input type="text"></label>
+		</fieldset>
+		<fieldset>
+			<legend>신고 사유</legend>
+			<p><b>신고하는 이유를 선택해주세요.</b>(중복 선택 가능)</p>
+			<label><input type="radio" ><span> 전문 판매업자 같아요</span></label> <br><br>
+			<label><input type="radio" ><span> 비매너 사용자예요</span></label><br><br>
+			<label><input type="radio" ><span> 욕설을 해요</span></label> <br><br>
+			<label><input type="radio" ><span> 성희롱을 해요</span></label> <br><br>
+			<label><input type="radio" ><span> 사기 사용자예요</span></label> <br><br>
+			<label><input type="radio" ><span> 거래 / 환불 분쟁 신고</span></label> <br> <br>
+			<label><input type="radio" ><span> 거래와 상관없이 원하지 않는 채팅을 걸어요</span></label> <br><br>
+			<label><input type="radio" ><span> 다른 문제가 있어요</span><br>
+			<label>이유 <input type="text"></label>
+			</label><br><br>
+		</fieldset>		
+		<legend><a href= file:///D:/dev/workspace/web/Study/src/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80.html><button type="button"> 신고하기 </button></legend>
+  </form>
+  </body>
+</html>
